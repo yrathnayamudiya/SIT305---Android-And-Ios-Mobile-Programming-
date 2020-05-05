@@ -48,6 +48,7 @@ public class dashboard extends AppCompatActivity {
                     fragment = new add_router();
                     toolbar.setTitle("Add New Router");
                     break;
+                    
 
 
             }
