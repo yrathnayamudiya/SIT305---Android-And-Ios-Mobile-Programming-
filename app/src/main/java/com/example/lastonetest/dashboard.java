@@ -48,7 +48,11 @@ public class dashboard extends AppCompatActivity {
                     fragment = new add_router();
                     toolbar.setTitle("Add New Router");
                     break;
-                    
+                case R.id.page_3:
+                    fragment = new user();
+                    toolbar.setTitle("Add Users");
+                    break;
+
 
 
             }
