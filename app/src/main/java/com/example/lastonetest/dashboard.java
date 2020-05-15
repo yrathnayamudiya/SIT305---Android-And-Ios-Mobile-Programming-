@@ -53,6 +53,11 @@ public class dashboard extends AppCompatActivity {
                     toolbar.setTitle("Add Users");
                     break;
 
+                case R.id.page_4:
+                    fragment = new view();
+                    toolbar.setTitle("Search Router");
+                    break;
+
 
 
             }
