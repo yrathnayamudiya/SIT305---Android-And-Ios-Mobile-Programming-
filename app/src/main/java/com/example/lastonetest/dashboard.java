@@ -57,6 +57,10 @@ public class dashboard extends AppCompatActivity {
                     fragment = new view();
                     toolbar.setTitle("Search Router");
                     break;
+                case R.id.page_5:
+                    fragment = new view_user();
+                    toolbar.setTitle("Search Users Using NIC");
+                    break;
 
 
 
