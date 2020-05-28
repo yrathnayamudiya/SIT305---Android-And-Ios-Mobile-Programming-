@@ -21,13 +21,12 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 public class view_user extends Fragment {
-
+ 
     View contectView;
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         contectView= inflater.inflate(R.layout.view_user,container,false);
-
 
 
 
