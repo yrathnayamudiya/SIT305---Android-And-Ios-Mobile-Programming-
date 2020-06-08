@@ -48,7 +48,7 @@ public class add_router extends Fragment {
             public void onClick(View arg0) {
                 Intent intent = new Intent(getActivity(),scan_router_imi.class);
                 startActivity(intent);
-                Toast.makeText(getActivity(), "Testing", Toast.LENGTH_LONG).show();
+                Toast.makeText(getActivity(), "Please Scan for new router", Toast.LENGTH_LONG).show();
 
             }
         });

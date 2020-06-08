@@ -35,7 +35,6 @@ public class view_user extends Fragment {
         contectView= inflater.inflate(R.layout.view_user,container,false);
         search = (EditText)contectView.findViewById(R.id.phonenumber);
         name = (TextView)contectView.findViewById(R.id.name);
-        nic = (TextView)contectView.findViewById(R.id.nic);
         address =(TextView)contectView.findViewById(R.id.address);
         phone =(TextView)contectView.findViewById(R.id.telnu);
         serch = contectView.findViewById(R.id.button2);
@@ -50,7 +49,7 @@ public class view_user extends Fragment {
                 address.setText(va_address);
                 nic.setText(v_nic);
                 phone.setText(v_phone);
-                Toast.makeText(getActivity(),"Data Retrived Success",Toast.LENGTH_LONG).show();
+                Toast.makeText(getActivity(),"Inserting Data To Database is Success",Toast.LENGTH_LONG).show();
 
             }
 

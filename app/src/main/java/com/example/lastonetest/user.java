@@ -64,7 +64,7 @@ public class user extends Fragment {
                 address.setText("");
                 number.setText("");
                 nic.setText("");
-                Toast.makeText(getActivity(), "Customer Registration Success", Toast.LENGTH_LONG).show();
+                Toast.makeText(getActivity(), "Register Success", Toast.LENGTH_LONG).show();
 
 
             }
