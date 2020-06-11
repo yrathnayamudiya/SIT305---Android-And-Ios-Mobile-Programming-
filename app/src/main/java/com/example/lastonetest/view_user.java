@@ -37,6 +37,7 @@ public class view_user extends Fragment {
         name = (TextView)contectView.findViewById(R.id.name);
         address =(TextView)contectView.findViewById(R.id.address);
         phone =(TextView)contectView.findViewById(R.id.telnu);
+        nic = (TextView)contectView.findViewById(R.id.nic);
         serch = contectView.findViewById(R.id.button2);
         final ValueEventListener valueEventListener = new ValueEventListener() {
             @Override
